@@ -30,9 +30,9 @@ public class MAinClass01 {
 		// printName 메소드 호출하기
 		printName("박주희", 25);
 		
-		String strName = getName();
 		
 		setName("피카츄");
+		String strName = getName();
 		System.out.println("전역변수 name : " + strName);
 		
 		String eMon = getEvolution("꼬부기");
