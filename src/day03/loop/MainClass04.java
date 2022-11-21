@@ -28,19 +28,38 @@ for 반복문 연습
       ***
        *
 */
+
 public class MainClass04 {
 	public static void main(String[] args) {
-		System.out.print("개행하지 않아요!!\n");
-		System.out.println("개행합니다..");
-		System.out.println("개행확인");
 		
-		// 1번 숙제 분석!
-		for(int i=0; i<7; i++) {
-			for(int j=0; j <= i; j++) {
+		for(int i=0; i < 7; i++) {			/*바깥for 줄(행)*/
+			for(int j=0; j < i+1; j++) {	/*안쪽for 칸(열)*/
 				System.out.print("*");
 			}
+			System.out.println();
+			
 		}
-		System.out.println();
+		
+		// 1번 숙제 분석!
+		
+//		 for(int i=0; i<7; i++) { 
+//			 for(int j=0; j <= i; j++) { 
+//				 System.out.print("*"); 
+//				}
+//		 	System.out.println(); 
+//		  }
+//		  
+//		 System.out.println("2번 문제");
+//		  
+//		 for(int i=0; i<7; i++) { 
+//			 for(int j=0; j < 6-i; j++) { 
+//				 System.out.print(" ");
+//		  	}
+//		  
+//		 	System.out.println("*"); 
+//		 }
+		 
+		
 	}
 
 }
