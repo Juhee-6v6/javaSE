@@ -35,7 +35,7 @@ public class MAinClass01 {
 		String strName = getName();
 		System.out.println("전역변수 name : " + strName);
 		
-		String eMon = getEvolution("꼬부기");
+		String eMon = getEvolution("꼬부기");	//진화하는 메소드
 		System.out.println(eMon);
 	}
 	
@@ -55,6 +55,18 @@ public class MAinClass01 {
 		System.out.println("나이 : "+ age);
 	}
 	
+	
+	
+
+	
+	/**
+	 * Alt + Shift + j
+	 * 
+	 * 포켓몬 진화 메소드
+	 * 
+	 * @param name
+	 * @return
+	 */
 	// 인자(매개변수) O 리턴 X -> 매개변수 name에 대립
 	public static void setName(String name) {
 		// 전역변수 name과 지역변수 name
