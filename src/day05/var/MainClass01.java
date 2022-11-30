@@ -22,6 +22,12 @@ import day05.mypack.Card;
 			
 2. 선언 위치에 따른 변수			
 		전역변수(global 변수)	- 클래스 안에 선언(멤버변수)
+							초기화를 하지 않으면 default 값이 들어간다.
+							참초형(class 임) : null
+							기본 정수형 : 0
+							기본 실수형(float, double) : 0.0
+							기본 boolean : False
+		
 		지역변수(local 변수)	- 메소드 또는 생성자 안에 선언 
 							중괄호 {} 안에 선언된 변수
 							반드시 초기화 해줘야 한다! (안하면 컴파일 에러)
@@ -34,10 +40,13 @@ import day05.mypack.Card;
 */	
 
 public class MainClass01 {
+	static char ch;
 	//public static String gVar;// new가 필요 없음. static이 대신함
 	
 	// ▼ 이 전체를 stack(스택) 영역 => 메인 메소드라고 생각해도 된다.
 	public static void main(String[] args) {
+		System.out.println(ch);
+		
 		Card c1 = new Card();
 
 		System.out.println(c1.cardType);
