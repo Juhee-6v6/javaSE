@@ -4,7 +4,7 @@ import day08.mypack.Car;
 
 public class MainClass05 {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) {  
 		Car car = new Car();
 		System.out.println(car.navi);
 		

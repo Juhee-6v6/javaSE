@@ -6,7 +6,7 @@ package day07.mypac;
  * 
  * implements 예약어로 선언한다.
  */
-public class AkWeapon implements Weapon, Scope{
+public class AkWeapon implements Weapon, Scope{ // 다중 상속함
 
 	@Override
 	public void attack() {
